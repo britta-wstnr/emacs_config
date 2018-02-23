@@ -221,7 +221,7 @@
 ;; -----------------
 ;; Emacs MATLAB mode
 ;; -----------------
-(add-to-list 'load-path (concat user-emacs-directory "/elpa/matlab-emacs")
+(add-to-list 'load-path (concat user-emacs-directory "/elpa/matlab-emacs"))
 (load-library "matlab-load")
 (add-to-list 'auto-mode-alist '("\\.m\\'" . matlab-mode))  ;; MATLAB files evoke Matlab mode
 (setq matlab-indent-function t)
